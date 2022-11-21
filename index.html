@@ -100,8 +100,10 @@
 </head>
 
 <body>
-    <h2>Automatic Slideshow</h2>
-    <p>Change image every 5 seconds:</p>
+    <h2>Automatic Slideshow including Tableau Dashboards and Video</h2>
+    <p> Tableau Embedding API is used to embed dashboards</p>
+    <p> Youtube IFrame player API is used to embed video</p>
+    <p>Change image/video every 5 seconds:</p>
 
     <div class="slideshow-container">
 
@@ -109,7 +111,6 @@
             <div class="numbertext">1 / 4</div>
             <script type="module" src="https://online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js">
             </script>
-
             <tableau-viz id="tableauViz"
                 src="https://10az.online.tableau.com/#/site/sgp/views/Superstore_16684268366920/Overview"
                 toolbar="hidden" hide-tabs>
@@ -121,7 +122,6 @@
             <div class="numbertext">2 / 4</div>
             <script type="module" src="https://online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js">
             </script>
-
             <tableau-viz id="tableauViz"
                 src="https://10az.online.tableau.com/#/site/sgp/views/Superstore_16684268366920/Forecast?:iid=21"
                 toolbar="hidden" hide-tabs>
@@ -133,13 +133,13 @@
             <div class="numbertext">3 / 4</div>
             <script type="module" src="https://online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js">
             </script>
-
             <tableau-viz id="tableauViz"
                 src="https://10az.online.tableau.com/#/site/sgp/views/Superstore_16684268366920/WhatIfForecast"
                 toolbar="hidden" hide-tabs>
             </tableau-viz>
             <div class="text">Caption Three</div>
         </div>
+
         <div class="mySlides fade">
             <div class="numbertext">4 / 4</div>
             <iframe width="756" height="567" src="https://www.youtube.com/embed/YfE9jBq002s?autoplay=1&mute=1">
